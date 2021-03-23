@@ -1,0 +1,55 @@
+h1 {
+    width: 200px;
+    margin: 50px auto;
+    color: #ff0303;
+    text-align: center;
+}
+
+h2 {
+    width: 200px;
+    margin: 0 auto;
+    color: #ff0303;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    background: #ff0303;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 6px;
+    border: solid 2px #ff3b3b;
+}
+
+.buttons {
+    max-width: 1300px;
+    margin: 0 auto;
+    border: solid 2px  #ff3b3b;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 6px;
+    background: #ff6868;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #000;
+    font-size: 14px;
+    border: none;
+}
+
+button:active, 
+button:focus {
+    outline: none;
+}
+
+#table {
+    width: 1000px;
+    padding-top: 20px;
+    margin: auto;
+    column-count: 8;
+    column-gap: 5px;
+    height: 200px; 
+}
